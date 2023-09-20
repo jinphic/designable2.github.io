@@ -1,13 +1,13 @@
 ---
-title: A static site based on dumi
+title: designable2
 hero:
-  title: Site
-  description: A static site based on dumi
+  title: designable2
+  description: designable2 docs
   actions:
     - text: Hello
-      link: /
+      link: /docs-designable2
     - text: World
-      link: /
+      link: /docs-designable2
 features:
   - title: Hello
     emoji: 💎
