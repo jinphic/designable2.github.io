@@ -8,7 +8,7 @@
     "build": "dumi build",
     "prepare": "husky install && dumi setup",
     "clear": "find .. -maxdepth 1 ! -name '.' ! -name '..' ! -name 'src' ! -name '.*' -exec rm -rf {} +",
-    "copy": "cp -r ./dist/* ../",
+    "copy": "cp -r ./dist/* ../ && cp README.md ../",
     "deploy": "pnpm run build && pnpm run clear && pnpm run copy"
   },
   "authors": [
